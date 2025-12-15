@@ -46,16 +46,11 @@ Desarrollar una aplicación móvil robusta que permita a los usuarios crear, con
 
 ## 📂 Estructura del repositorio
 
-```text
-├── android/     # Aplicación Android (Kotlin)
-├── backend/     # API REST (Spring Boot)
-├── docs/        # Documentación del proyecto
-└── README.md
+    ├── android/     # Aplicación Android (Kotlin)
+    ├── backend/     # API REST (Spring Boot)
+    ├── docs/        # Documentación del proyecto
+    └── README.md
 
----
-
-### 8️⃣ Autor
-```md
 ## 👤 Autor
 
 **Jairo Navarro**  
