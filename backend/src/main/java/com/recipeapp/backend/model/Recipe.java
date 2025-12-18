@@ -41,6 +41,9 @@ public class Recipe {
     @OneToMany(mappedBy = "recipe", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Favorite> favorites;
 
+    @OneToMany(mappedBy = "recipe", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Rating> ratings;
+
     @PrePersist
     public void prePersist(){
         this.createdAt = LocalDateTime.now();
