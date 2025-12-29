@@ -12,4 +12,6 @@ public interface RecipeRepository extends JpaRepository<Recipe, Long> {
     List<Recipe> findByCategoryId(Long categoryId);
 
     List<Recipe> findByTitleContainingIgnoreCase(String title);
+
+    boolean existsByCategoryId(Long categoryId);
 }
