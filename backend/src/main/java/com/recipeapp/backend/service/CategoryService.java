@@ -33,7 +33,9 @@ public class CategoryService {
             throw new IllegalArgumentException("Category already exists");
         }
 
-        Category category = new Category(name);
+        Category category = new Category();
+        category.setName(name);
+
         return categoryRepository.save(category);
     }
 
